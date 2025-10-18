@@ -1,0 +1,54 @@
+# .gitignore for ASP.NET Core projects
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.env
+.env.*
+.DS_Store
+*.db
+*.sqlite
+# dotnet user secrets
+secrets.json
+# Visual Studio cache
+.vs/
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+# logs
+logs/
+*.log
+# publish output
+publish/
+
+# EF Migrations
+Migrations/
+
+# Rider
+.idea/
+
+# macOS
+Icon\r
+
+# ignore local certificates
+certs/
+
+# ignore compiled outputs
+*.dll
+*.exe
+*.pdb
+
+# Node/npm
+node_modules/
+
+# Ignore IDE and OS files
+*.swp
+*~
+
+# keep README and source
+README.md
