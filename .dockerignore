@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.md
+.git
+**/Properties/launchSettings.json
+*.user
+*.suo
