@@ -37,7 +37,5 @@ namespace ciberinfraestructura_tarea2_webserver_rest.Controllers
             var created = await _provider.AddAsync(item);
             return CreatedAtAction(nameof(Get), new { id = created.id }, created);
         }
-
-        // PUT and DELETE intentionally omitted per requirements
     }
 }
